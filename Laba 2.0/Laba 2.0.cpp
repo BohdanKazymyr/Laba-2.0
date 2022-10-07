@@ -14,7 +14,7 @@ int main()
 	double z2; // результат обчислення 2-го виразу
 	cout << "a = "; cin >> a;
 	z1 = sin(Pi * 0.5 + 3 * a) / (1 - sin(3 * a - Pi));
-	z2 = 1 / tan((1.25 * Pi) + (1.5 * a));
+	z2 = 1 / tan(((5.0/4.0) * Pi) + (1.5 * a));
 
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
